@@ -1,0 +1,21 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "collection-api": {},
+      "stellar": {}
+    },
+    "packages": {
+      "collection-api": {
+        "git": "https://github.com/crazytoad/meteor-collectionapi.git",
+        "tag": "v0.1.15",
+        "commit": "b62c51f387287726cf3b64077f7bc69604ec2f5e"
+      },
+      "stellar": {
+        "git": "https://github.com/noorderstorm/meteor-stellar.git",
+        "tag": "v0.1.0",
+        "commit": "1ca2f68e0cca5967a6f88545cea12055c9fc2465"
+      }
+    }
+  }
+}

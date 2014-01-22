@@ -1,0 +1,30 @@
+{
+  //server authentication info
+  "servers": [
+    {
+      "host": "107.170.13.142",
+      "username": "rafael",
+      "password": "rafafa!@$"
+      //or pem file (ssh based authentication)
+      //"pem": "~/.ssh/id_rsa"
+    }
+  ],
+
+  //install MongoDB in the server
+  "setupMongo": false,
+
+  //location of app (local directory)
+  "app": "/Users/rafael/Nitrous/sallesnitro/nio1",
+
+  //configure environmental
+  "env": {
+    "PORT": 80,
+    "ROOT_URL": "http://ava.sallespro.com.br",
+    "MONGO_URL": "mongodb://ava.sallespro.com.br:27017/nio1",
+    "MAIL_URL": "smtp://postmaster%40cativesallespromanager.mailgun.org:97kqw9e7i8x2@smtp.mailgun.org:587"
+  },
+
+  //meteor-up checks if the app comes online just after the deployment
+  //before mup checks that, it will wait for no. of seconds configured below
+  "deployCheckWaitTime": 15
+}

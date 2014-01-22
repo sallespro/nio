@@ -1,0 +1,14 @@
+/* CSS declarations go here */
+
+
+#scroller {
+  
+}
+
+section {
+  position: relative;
+  top: 400px;
+  width: 300px;
+  height: 3000px;
+  margin: 0 auto;
+}
